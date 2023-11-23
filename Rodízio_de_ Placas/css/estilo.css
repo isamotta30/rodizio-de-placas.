@@ -1,18 +1,9 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     text-align: center;
     font-family: Didot, serif;
-    background: linear-gradient(#3903fa, #e982d3);
-    color: #f0b8c7;
-  }
-
-.carros {
-    background-color: #7B68EE;
-    color: rgb(0, 0, 0);
-    border: 4px solid rgb(255, 255, 255);
-    margin: 20px;
-    padding: 20px;
+    background-color: #3903fa;
 }
 button {
     background-color: #4B0082;
@@ -28,6 +19,7 @@ button {
     cursor: pointer;
     border-radius: 70px;
 }
-#center{
+
+#center {
     text-align: center;
 }

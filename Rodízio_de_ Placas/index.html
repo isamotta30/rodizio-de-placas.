@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
     <script src="./js/main.js"></script>
     <title>Rodizío de placas</title>
@@ -14,11 +9,11 @@
 <body>
 
     <label>Digite o número final da placa:</label>
-    <input type="text"  id="carros" placeholder="Numero"><br><br>
+    <input type="text"  id="placa" placeholder="Numero"><br><br>
 
     <label>Adicione o dia de circulação:</label>
     <input type="hidden">
-    <select id="carro">
+    <select id="semana">
         <option>Segunda-feira</option>
         <option>Terça-feira</option>
         <option>Quarta-feira</option>
@@ -28,15 +23,14 @@
 
     <label>Adicione o tipo de automovel:</label>
     <input type="hidden">
-    <select  id="carro">
+    <select  id="automovel">
         <option>Carro</option>
-        <option>Moto</option>
         <option>Caminhão</option>
     </select><br><br>
 
     <label>Adicione o horário:</label>
     <input type="hidden">
-    <select  id="carro">
+    <select  id="horario">
         <option>01:00</option>
         <option>02:00</option>
         <option>03:00</option>
@@ -58,19 +52,19 @@
         <option>19:00</option>
         <option>20:00</option>
         <option>21:00</option>
-        <option>22:00/option>
+        <option>22:00</option>
         <option>23:00</option>
         <option>00:00</option>
     </select><br><br>
 
     <label>Adicione a  área de circulação:</label>
     <input type="hidden">
-    <select id="carros">
+    <select id="circulacao">
         <option>Áreas vermelhas</option>
         <option>Vias limítrofes</option>
     </select><br><br>
 
-    <button  id="button">Resultado</button>
+    <button onclick="rodizioplacas()" id="button">Resultado</button>
     <h1 id="carros"></h1>
 
     <div id="center">
