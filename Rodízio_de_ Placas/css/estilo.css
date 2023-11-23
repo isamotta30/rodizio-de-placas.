@@ -23,3 +23,12 @@ button {
 #center {
     text-align: center;
 }
+
+input{
+    background-color: #4B0082;
+    color: aliceblue;
+}
+.hidden{
+    background-color: #4B0082;
+    color: aliceblue;
+}
